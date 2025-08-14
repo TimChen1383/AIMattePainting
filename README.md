@@ -5,3 +5,6 @@
 
 ### Depth Generate
 ![DepthGenerate](https://github.com/user-attachments/assets/90956a58-a276-4945-b0c0-dd40d50f5a1b)
+
+### Depth Based Slicing
+![DepthBasedSlicing](https://github.com/user-attachments/assets/5073b0a4-1958-4df6-81d8-ae49721a6436)
