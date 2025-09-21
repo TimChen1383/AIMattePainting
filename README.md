@@ -1,4 +1,4 @@
-# DepthAI
+# AI Matte Painting
 ![Dune](https://github.com/user-attachments/assets/4f8ac793-139b-42cf-b26f-76f56a0f4c81)
 
 ### Object Removal
