@@ -16,3 +16,12 @@ The tool is made up of five modules, based on the steps for creating a scene: im
 
 ### Depth Based Slicing
 ![DepthBasedSlicing](https://github.com/user-attachments/assets/5073b0a4-1958-4df6-81d8-ae49721a6436)
+
+(not done yet)
+*make sure to add lines to slice the sections
+*make sure to add images for better visualization
+- abstract
+- installation
+- Features, how to use the functions
+- result Gallery
+- debug
