@@ -7,7 +7,7 @@
 
 ## Overview
 
-This tool provides a comprehensive AI toolset to help creators build 3D scenes in no time, from image generation to 3D model. The toolset consists of five main modules: Image Generation, Image Cleanup, Depth Calculation, Image Slicing, and Image to 3D Conversion. Each module can operate independently, but can also be used in conjunction with each other.
+This tool provides a comprehensive AI toolset to help creators build 3D scenes in no time, from image generation to 3D model. The toolset consists of five main modules : Image Generation, Image Cleanup, Depth Calculation, Image Slicing, and Image to 3D Conversion. Each module can operate independently, but can also be used in conjunction with each other.
 
 ## Installation
 Currently the plugin support Unreal Engine 5.3. Before using it, make sure the required models, packages, and CUDA are successfully installed. This ensures the plugin work properly.
