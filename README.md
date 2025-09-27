@@ -1,21 +1,38 @@
 # AI Matte Painting
-This tool uses AI to assist in creating 3D scenes. It generates and produces 3D scenes from simple prompts.
-
-The tool is made up of five modules, based on the steps for creating a scene: image generation, image cleaning, depth calculation, image segmentation, and image-to-3D conversion. Each module can be used on its own or in combination with the others.
-
 
 ![Dune](https://github.com/user-attachments/assets/4f8ac793-139b-42cf-b26f-76f56a0f4c81)
 ![360](https://github.com/user-attachments/assets/0f6af19c-1b9d-48ab-95b2-5dfdea5d9f8b)
 
 
-### Object Removal
+
+## Overview
+
+This tool provides a comprehensive AI toolset to help creators build 3D scenes in no time, from image generation to 3D model. The toolset consists of five main modules: Image Generation, Image Cleanup, Depth Calculation, Image Slicing, and Image to 3D Conversion. Each module can operate independently, but can also be used in conjunction with each other.
+
+## Installation
+Currently the plugin support Unreal Engine 5.3. Before using it, make sure the required models, packages, and CUDA are successfully installed. This ensures the plugin work properly.
+
+### 1. Models and Libraries
+- Libraries: Place the Libraries folder under the plugin (Plugins\MoonshineEngine\Libraries)
+- AI Models: Place the Models folder under the plugin (Plugins\MoonshineEngine\Models)
+
+### 2. CUDA
+The MoGe model (360° depth calculation) within the tool requires CUDA to run. To match the Torch version installed within the tool, CUDA version 12.9 is required. For a comparison of Torch and CUDA versions, refer to "https://pytorch.org/get-started/locally/." You can verify your computer's CUDA version by entering the following command in CMD:
+```python
+nvidia-smi
+```
+
+### Image Cleanup
 ![ObjectRemoval](https://github.com/user-attachments/assets/769854b5-fa0a-4eb0-8f2f-6c4dcfb6a48a)
 
-### Depth Generate
+### Depth Calculation
 ![DepthGenerate](https://github.com/user-attachments/assets/22c7bf49-7aa0-46ce-9177-43172e3d7e61)
 
-### Depth Based Slicing
+### Image Slicing
 ![DepthBasedSlicing](https://github.com/user-attachments/assets/5073b0a4-1958-4df6-81d8-ae49721a6436)
+
+### Image to 3D
+
 
 (not done yet)
 *make sure to add lines to slice the sections
