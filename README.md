@@ -87,12 +87,17 @@ The tool generates a 3D model using the ambient and depth maps (BP_DepthMeshGene
 - Magnitude: Determines the strength of the depth map's displacement of the model.
 - Smooth Strength: Adjust the smoothness of the model's surface.
 
+![Template](https://github.com/user-attachments/assets/0db739b2-b8bc-4250-acbf-10cfa3d614a4)
+There are some templates (sub-levels) prepared in the plugin. You can drag the template into the scene to use it. You can adjust it according to your needs.
 
-(not done yet)
-*make sure to add lines to slice the sections
-*make sure to add images for better visualization
-- abstract
-- installation
-- Features, how to use the functions
-- result Gallery
-- debug
+- SL_1Plane: A one-layer planar 3D depth model
+- SL_2Plane: A two-layer planar 3D depth model
+- SL_3Plane: A three-layer planar 3D depth model
+- SL_4Plane: A four-layer planar 3D depth model
+- SL_Hemisphere: A hemisphere-based 3D depth model
+- SL_Sphere: A sphere-based 3D depth model
+
+## Examples
+There are also some examples (Levels) attached to the plugin.
+![Example](https://github.com/user-attachments/assets/57ff08b8-f0a3-4519-89e8-98c3173fbafe)
+
