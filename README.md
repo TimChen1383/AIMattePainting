@@ -22,6 +22,14 @@ The MoGe model (360° depth calculation) within the tool requires CUDA to run. T
 nvidia-smi
 ```
 
+## Tool Introduction
+### 1. Image Generation
+<img width="1024" height="416" alt="generator_BeforeAfter" src="https://github.com/user-attachments/assets/25c3cd59-54e3-4db1-b9bb-2ac4a4504852" />
+
+<img width="1024" height="416" alt="generator_UI" src="https://github.com/user-attachments/assets/ba552ecb-e08c-4b90-81ca-5423ecb0dd5d" />
+
+
+
 ### Image Cleanup
 ![ObjectRemoval](https://github.com/user-attachments/assets/769854b5-fa0a-4eb0-8f2f-6c4dcfb6a48a)
 
