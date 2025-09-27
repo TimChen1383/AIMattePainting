@@ -74,7 +74,7 @@ A parallax effect can be created by appropriately slicing an image into foregrou
 
 <img width="1024" height="416" alt="3D_UI" src="https://github.com/user-attachments/assets/acf6dab9-43ef-490a-a8d6-3e9236d22553" />
 
-The tool generates a 3D model using the ambient and depth maps (BP_DepthMeshGenerator). The subdivision count and displacement size of the object's surface can be adjusted in real time, as well as the model's position. Displacement can be based on a circle, semicircle, or plane. To allow for dynamic adjustments, the tool uses a Dynamic Mesh Component. However, for use cases where the Dynamic Mesh Component isn't feasible (such as nDisplay), the tool provides a function to convert a Dynamic Mesh to a Static Mesh (Bake Static Mesh).
+The tool generates a 3D model based on depth maps (BP_DepthMeshGenerator). The subdivision count and displacement strength of the surface can be adjusted in real time. Displacement can be generated based on a sphere, semisphere, or plane mesh. To support dynamic adjustments, the tool is using Dynamic Mesh Component. However, for use cases where the Dynamic Mesh Component isn't feasible (such as nDisplay), the tool provides a function to convert the Dynamic Mesh to a Static Mesh (Bake Static Mesh).
 - Bake Static Mesh: After confirming all desired parameters, click the button to convert the Dynamic Mesh to a Static Mesh.
 - Frozen: Stops calculating the geometry script to avoid constantly calculating displacement as the model moves, which can consume computer resources.
 - Output Mesh Name: The name of the converted Static Mesh file.
@@ -88,7 +88,7 @@ The tool generates a 3D model using the ambient and depth maps (BP_DepthMeshGene
 - Smooth Strength: Adjust the smoothness of the model's surface.
 
 ![Template](https://github.com/user-attachments/assets/0db739b2-b8bc-4250-acbf-10cfa3d614a4)
-There are some templates (sub-levels) prepared in the plugin. You can drag the template into the scene to use it. You can adjust it according to your needs.
+There are some templates (sub-levels) prepared in the plugin. Drag the template directly into the scene to use it. You can also adjust the template according to your needs.
 
 - SL_1Plane: A one-layer planar 3D depth model
 - SL_2Plane: A two-layer planar 3D depth model
